@@ -1,0 +1,38 @@
+.row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width:100%
+}
+.banner img{
+  width:100%;
+}
+.symbols{
+  display: flex;
+}
+.symbols img{
+  flex-basis: 25%;
+  padding-left:100px;
+  padding-right:100px;
+  width:200px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 0px;
+  color:green
+}
+h3 {
+  margin-top:0px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.inquire{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px
+}
+button{
+
+;
+}
