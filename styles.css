@@ -84,10 +84,10 @@ padding-right:15%;
   justify-content: center;
   margin-bottom: 25px;
 }
-.submit button{
+/* .submit button{
   padding: 0.5rem 3rem;
-}
-button{
+} */
+button, #inqBtn{
 border:none;
 padding: 0.5rem 1.5rem;
 background-color:green;
@@ -112,6 +112,19 @@ textarea{
   width: 400px
 }
 
+@media screen and (min-width:900px) {
+  #tabletBanner,
+  #mobileBanner{
+    display: none;
+  }
+}
+@media screen and (min-width:500px) and (max-width:900px){
+  #desktopBanner,
+  #mobileBanner {
+    display:none
+  }
+
+}
 
  @media screen and (max-width: 900px) {
   .row {
@@ -385,5 +398,9 @@ textarea{
 
       textarea {
         width: 200px
+      }
+      #desktopBanner,
+      #tabletBanner {
+        display:none
       }
     }

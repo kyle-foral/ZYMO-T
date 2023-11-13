@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zymo Assignment</title>
+  <title>Zymo Tech Assignment</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -14,7 +14,9 @@
     <div class="row">
       <div class="column">
         <div class="banner">
-          <img src="banner-desktop.jpg" alt="banner">
+          <img src="banner-desktop.jpg" alt="banner" id="desktopBanner">
+          <img src="banner-tablet.jpg" alt="banner" id="tabletBanner">
+          <img src="banner-mobile.jpg" alt="banner" id="mobileBanner">
         </div>
       </div>
     </div>
@@ -32,24 +34,24 @@
             <div class="pic">
               <img src="checkmark_icon.jpg" alt="checkmark_icon">
             </div>
-            Random Words
+            Checkmarks Reached
           </div>
           <div class="three">
             <div class="pic">
             <img src="graphs_icon.jpg" alt="graphs_icon">
             </div>
-            Random Words
+            Graph Charts
           </div>
           <div class="three">
             <div class="pic">
               <img src="bullseye_icon.jpg" alt="bullseye_icon">
             </div>
-            Random Words
+            Bullseye Score
           </div>
         </section>
 
         <div class="inquire">
-          <button> Inquire Now </button>
+          <a href="#formDestination" id="inqBtn"> Inquire Now </a>
         </div>
       </div>
     </div>
@@ -96,7 +98,7 @@
         </p>
       </div>
     </div>
-    <div>
+    <div id="formDestination">
       <form id="contact-form">
         <h2>
           Form
@@ -149,7 +151,7 @@
             cols="71">
             </textarea>
             <div class="submit">
-              <button type="submit"> Submit </button>
+              <button id="formSbmt"> Submit </button>
             </div>
           </div>
         </div>
@@ -163,7 +165,5 @@
 
 
   </div>
-
-
 </body>
 </html>
