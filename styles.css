@@ -25,6 +25,9 @@
 .column-half1{
   justify-content: right;
 }
+.ltext{
+  max-width: 75%;
+}
 
 .banner img{
   height:auto;
