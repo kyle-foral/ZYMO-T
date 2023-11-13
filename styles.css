@@ -84,7 +84,9 @@ padding-right:15%;
   justify-content: center;
   margin-bottom: 25px;
 }
-
+ #inqBtn {
+  text-decoration: none;
+ }
 button, #inqBtn{
 border:none;
 padding: 0.5rem 1.5rem;
