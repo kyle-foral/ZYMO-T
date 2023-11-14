@@ -41,7 +41,7 @@
   flex-basis: 25%;
   padding-left:100px;
   padding-right:100px;
-  width:200px;
+  width:150px
 }
 
 h3,.three{
@@ -65,6 +65,9 @@ h2{
 h3{
   margin-top:0px;
   margin-bottom: 75px;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
 
 }
 p{
@@ -113,11 +116,10 @@ textarea{
 }
 
  @media screen and (max-width: 900px) {
-
-    .banner img {
-      height: auto;
-      max-width: 100%;
-      margin: 0
+  .banner img {
+    height: auto;
+    max-width: 100%;
+    margin: 0
     }
     .symbols {
       display: flex;
@@ -130,52 +132,56 @@ textarea{
     }
   }
 
-    @media screen and (max-width: 500px) {
-      .row {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        width: 100%
-      }
-
-      .row3 {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        flex-direction: column;
-        width: 100%
-      }
-      .symbols {
-        display: flex;
-        flex-direction: column;
-      }
-      .symbols img {
-        flex-basis: 25%;
-        padding-left: 50px;
-        padding-right: 50px;
-        width: 50px;
-      }
-
-      textarea{
-        width:75%
-      }
-      #desktopBanner,
-      #tabletBanner {
-        display:none
-      }
+  @media screen and (max-width: 500px) {
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      width: 100%
     }
-        @media screen and (min-width:900px) {
-
-          #tabletBanner,
-          #mobileBanner {
-            display: none;
+    .row3 {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      width: 100%
+    }
+    .symbols {
+      display: flex;
+      flex-direction: column;
+    }
+    .symbols img {
+      flex-basis: 25%;
+      padding-left: 50px;
+      padding-right: 50px;
+      width: 50px;
+    }
+    textarea{
+      width:75%
+    }
+    #desktopBanner,
+    #tabletBanner {
+      display:none
+    }
+  }
+     @media screen and (min-width:900px) {
+      #tabletBanner,
+      #mobileBanner {
+        display: none;
           }
-        }
-        @media screen and (min-width:500px) and (max-width:900px) {
+    }
 
-          #desktopBanner,
-          #mobileBanner {
-            display: none
-          }
+    @media screen and (min-width:500px) and (max-width:900px) {
+    #desktopBanner,
+    #mobileBanner {
+      display: none
         }
+    }
+
+     @font-face {
+      font-family: 'Avenir';
+      font-style: normal;
+      font-weight: 500;
+      src: url('avenir.woff2') format('woff2');
+    }
